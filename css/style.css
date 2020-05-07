@@ -231,6 +231,8 @@ img {
   height: 214px;
   padding: 20px;
   outline-color: transparent;
+  margin-bottom: 0;
+  resize: none;
 }
 
 .btn-form {
@@ -243,7 +245,6 @@ img {
   font-family: 'Montserrat',
     sans-serif;
   padding: 25px 45px;
-  outline: none;
   color: #ffffff;
   font-size: 18px;
   color: rgb(255, 255, 255);
