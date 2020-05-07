@@ -199,40 +199,38 @@ img {
   justify-content: space-between;
 }
 
+.input::placeholder {
+  font-size: 14px;
+  font-family: 'Montserrat',
+    sans-serif;
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+
+}
 
 
-.input {
-  border-style: solid;
+.input-data {
+  border-style: 1px solid;
   border-radius: 2px;
+  border-color: rgb(204, 204, 204);
   background-color: rgb(255, 255, 255);
   width: 459px;
   height: 54px;
   margin: 13px;
-  font-family: 'Montserrat',
-    sans-serif;
   padding: 20px;
-  font-size: 14px;
-  font-weight: bold;
 }
 
 .input-text {
-  border-style: solid;
-  border-width: 1px;
+  border-style: 1px solid;
   border-color: rgb(204, 204, 204);
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
   width: 459px;
   height: 214px;
-  font-family: 'Montserrat',
-    sans-serif;
   padding: 20px;
-  font-size: 14px;
-  color: rgb(187, 187, 187, 0.1);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.2;
-
-
+  outline-color: transparent;
 }
 
 .btn-form {
